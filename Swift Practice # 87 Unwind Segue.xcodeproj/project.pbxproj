@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		2D70D327270B05F20076055C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D326270B05F20076055C /* AppDelegate.swift */; };
 		2D70D329270B05F20076055C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D328270B05F20076055C /* SceneDelegate.swift */; };
-		2D70D32B270B05F20076055C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D32A270B05F20076055C /* ViewController.swift */; };
 		2D70D32E270B05F20076055C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D70D32C270B05F20076055C /* Main.storyboard */; };
 		2D70D330270B05F30076055C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D70D32F270B05F30076055C /* Assets.xcassets */; };
 		2D70D333270B05F30076055C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D70D331270B05F30076055C /* LaunchScreen.storyboard */; };
+		2D70D33B270B06620076055C /* SaveMoneyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D33A270B06620076055C /* SaveMoneyTableViewController.swift */; };
+		2D70D33D270B067C0076055C /* AddListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D33C270B067C0076055C /* AddListTableViewController.swift */; };
+		2D70D33F270B086D0076055C /* SaveMoneyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70D33E270B086D0076055C /* SaveMoneyType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D70D323270B05F20076055C /* Swift Practice # 87 Unwind Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 87 Unwind Segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D70D326270B05F20076055C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D70D328270B05F20076055C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D70D32A270B05F20076055C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D70D32D270B05F20076055C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D70D32F270B05F30076055C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D70D332270B05F30076055C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D70D334270B05F30076055C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D70D33A270B06620076055C /* SaveMoneyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyTableViewController.swift; sourceTree = "<group>"; };
+		2D70D33C270B067C0076055C /* AddListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListTableViewController.swift; sourceTree = "<group>"; };
+		2D70D33E270B086D0076055C /* SaveMoneyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMoneyType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				2D70D326270B05F20076055C /* AppDelegate.swift */,
 				2D70D328270B05F20076055C /* SceneDelegate.swift */,
-				2D70D32A270B05F20076055C /* ViewController.swift */,
 				2D70D32C270B05F20076055C /* Main.storyboard */,
+				2D70D33E270B086D0076055C /* SaveMoneyType.swift */,
+				2D70D33A270B06620076055C /* SaveMoneyTableViewController.swift */,
+				2D70D33C270B067C0076055C /* AddListTableViewController.swift */,
 				2D70D32F270B05F30076055C /* Assets.xcassets */,
 				2D70D331270B05F30076055C /* LaunchScreen.storyboard */,
 				2D70D334270B05F30076055C /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D70D32B270B05F20076055C /* ViewController.swift in Sources */,
+				2D70D33D270B067C0076055C /* AddListTableViewController.swift in Sources */,
 				2D70D327270B05F20076055C /* AppDelegate.swift in Sources */,
 				2D70D329270B05F20076055C /* SceneDelegate.swift in Sources */,
+				2D70D33F270B086D0076055C /* SaveMoneyType.swift in Sources */,
+				2D70D33B270B06620076055C /* SaveMoneyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
